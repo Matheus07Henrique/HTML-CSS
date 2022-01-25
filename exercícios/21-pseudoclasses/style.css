@@ -1,0 +1,14 @@
+/* : é pseudoclasse */
+
+
+div{
+    display: inline-block;
+    background-color: palegreen;
+    text-align: center;
+    border: 1px solid gray;
+    height: 200px;
+    width: 200px;
+}
+div:hover{ /*Quando passa o mouse por cima*/
+    background-color: palevioletred;
+}

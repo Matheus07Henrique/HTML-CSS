@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 1em;
+    /* 16px = 1em */
+
+    font-weight: 400; /*peso da fonte*/
+    /* weight - width - height*/
+    /* peso - altura - largura */
+
+    font-style: italic; /*estilo da fonte*/
+
+    text-decoration: none; /*decoração (sublinhado etc)*/
+}
+h1 {
+    /*
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1em;  
+    font-family: Arial;
+    */
+
+    /* shorthand font --> */
+
+    font: italic 800 2em Arial, serif;
+    /*  style - weight - size - family*/
+}
+h2 {
+    font: 600 2em serif;
+}

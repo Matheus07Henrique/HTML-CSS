@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Olondon';
+    src: url('Olondon_.otf') format('opentype'), url('OldLondon.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-family: 'Olondon', 'Times New Roman', Times, serif;
+    font-size: 3em;
+    font-weight: normal;
+}
+h2 {
+    font-family: 'Olondon';
+}
